@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+.registration-link {
+    text-align: left;
+    display: block; /* Ensure it takes up the full width of its container */
+}
+
+.main{
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 40px;
+}
+.txt{
+    padding-top:5%;
+    height:100%;
+    width:50%;
+    text-align:center;
+}
+.head{
+    margin: bottom 50px;
+}
+.head p{
+    margin-top:20px;
+    position:relative;
+}
+input{
+    border:none;
+    border-bottom:1px solid #000000;
+    outline:none;
+    width:50%;
+}
+.mail{
+    position:relative;
+    margin-bottom:80px;
+}
+.pass{
+    position:relative;
+}
+
+
+.tt-1{
+    position:absolute; 
+    top:0;
+    left:25%;
+    color:grey;
+    font-size:16px;
+    transition: .5s;
+}
+.tt-2{
+    position:absolute;
+    top:0;
+    left:25%;
+    color:grey;
+    font-size:18px;
+    transition: .5s;
+}
+.pass input:focus ~ label{
+    top:-75%;
+    left:25%;
+    font-size: 12px;
+    color:black;
+} 
+.mail input:focus ~ label{
+    top:-75%;
+    left:25%;
+    font-size: 12px;
+    color:black;
+} 
+.button{
+    margin-top:70px;
+    position:relative;
+    left:-21%;
+    
+}
+.button button{
+    padding:11px;
+    width:70px;
+    border:none;
+    border-radius:4px;
+    background:#55eb57;
+    font-size: 14px;
+    color:white;
+}
+ .button :hover{
+    background-color:#92ca11;
+} 
+.button button a{
+    text-decoration:none;
+}
+ 
+.img{
+    width:50%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:50%; 
+}
